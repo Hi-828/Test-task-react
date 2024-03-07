@@ -48,7 +48,9 @@ const Dashboard = () => {
       {/* Main Content */}
       <div className="flex-1 bg-gray-100 p-8">
         <div className="flex justify-between mb-4">
-          <h2 className="text-2xl font-bold">User List</h2>
+
+          <h2 className="text-2xl font-bold">6 clients</h2>
+
           <button className="bg-purple-900 hover:bg-green-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ">
             New
           </button>
@@ -57,7 +59,30 @@ const Dashboard = () => {
         <table className="w-full">
           <thead className="border-b border-t border-gray-300">
             <tr>
-              <th className="px-4 py-3">Avatar</th>
+
+              <th className="px-4 py-3"></th>
+              <th className="px-4 py-3">Name</th>
+              <th className="px-4 py-3">Company</th>
+              <th className="px-4 py-3">Reg. Date</th>
+              <th className="px-4 py-3">Plan</th>
+            </tr>
+            <tr>
+              <th className="px-4 py-3"></th>
+              <th className="px-4 py-3">Kostas Nasis</th>
+              <th className="px-4 py-3">Neusis</th>
+              <th className="px-4 py-3">2024-03-01</th>
+              <th className="px-4 py-3">Free</th>
+            </tr>
+            <tr>
+              <th className="px-4 py-3"></th>
+              <th className="px-4 py-3">Kostas Nasis</th>
+              <th className="px-4 py-3">Neusis</th>
+              <th className="px-4 py-3">2024-03-01</th>
+              <th className="px-4 py-3">Silver</th>
+            </tr>
+            <tr>
+              <th className="px-4 py-3"></th>
+
               <th className="px-4 py-3">Name</th>
               <th className="px-4 py-3">Company</th>
               <th className="px-4 py-3">Reg. Date</th>
