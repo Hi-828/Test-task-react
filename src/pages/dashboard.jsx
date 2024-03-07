@@ -83,10 +83,31 @@ const Dashboard = () => {
             <tr>
               <th className="px-4 py-3"></th>
 
-              <th className="px-4 py-3">Name</th>
-              <th className="px-4 py-3">Company</th>
-              <th className="px-4 py-3">Reg. Date</th>
-              <th className="px-4 py-3">Plan</th>
+              <th className="px-4 py-3">Kostas Nasis</th>
+              <th className="px-4 py-3">Neusis</th>
+              <th className="px-4 py-3">2024-03-01</th>
+              <th className="px-4 py-3">Gold</th>
+            </tr>
+            <tr>
+              <th className="px-4 py-3"></th>
+              <th className="px-4 py-3">Kostas Nasis</th>
+              <th className="px-4 py-3">Neusis</th>
+              <th className="px-4 py-3">2024-03-01</th>
+              <th className="px-4 py-3">Free</th>
+            </tr>
+            <tr>
+              <th className="px-4 py-3"></th>
+              <th className="px-4 py-3">Kostas Nasis</th>
+              <th className="px-4 py-3">Neusis</th>
+              <th className="px-4 py-3">2024-03-01</th>
+              <th className="px-4 py-3">Free</th>
+            </tr>
+            <tr>
+              <th className="px-4 py-3"></th>
+              <th className="px-4 py-3">Kostas Nasis</th>
+              <th className="px-4 py-3">Neusis</th>
+              <th className="px-4 py-3">2024-03-01</th>
+              <th className="px-4 py-3">Free</th>
             </tr>
           </thead>
           <tbody className="text-gray-600">
