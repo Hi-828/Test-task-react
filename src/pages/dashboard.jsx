@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import Logo from "../assets/logo512.png";
+import "../style/dashboard.css";
 
 const Dashboard = () => {
   const handleLogout = () => {
@@ -43,7 +44,6 @@ const Dashboard = () => {
           <div></div>
         </div>
       </header>
-
       {/* Main Content */}
       {/* Main Content */}
       <div className="flex-1 bg-gray-100 p-8">
@@ -59,7 +59,6 @@ const Dashboard = () => {
         <table className="w-full">
           <thead className="border-b border-t border-gray-300">
             <tr>
-
               <th className="px-4 py-3"></th>
               <th className="px-4 py-3">Name</th>
               <th className="px-4 py-3">Company</th>
